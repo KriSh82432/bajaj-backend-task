@@ -2,9 +2,10 @@ from flask import Flask, request, jsonify
 import base64
 import os
 from werkzeug.utils import secure_filename
+from flask_cors import CORS
 
 app = Flask(__name__)
-
+CORS(app)
 
 @app.route('/bfhl', methods=['GET', 'POST'])
 def bfhl():
