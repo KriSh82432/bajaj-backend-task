@@ -18,9 +18,9 @@ def bfhl():
             return jsonify({"is_success": False, "error": "Invalid input"}), 400
 
         # Extract user details (hardcoded for this example)
-        user_id = "john_doe_17091999"
-        email = "john@xyz.com"
-        roll_number = "ABCD123"
+        user_id = "krishna-venkatesan-14_04_2004"
+        email = "kg5300@srmist.edu.in"
+        roll_number = "RA2111043010028"
 
         # Separate numbers and alphabets
         numbers = []
